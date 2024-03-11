@@ -6,7 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { data } from "../data/courseData";
+import { data } from "../../../data/courseData";
 import { CourseCard } from "./CourseCard";
 
 export default function CardCarousel() {
