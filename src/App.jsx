@@ -9,8 +9,8 @@ function App() {
     <div className="flex h-screen flex-col items-center bg-PrimeTwo">
       <div className="flex max-w-screen-sm flex-col bg-PrimeTwo md:max-w-screen-2xl">
         <Navbar />
-        {/* <Home /> */}
-        <Course />
+        <Home />
+        {/* <Course /> */}
         <Footer />
       </div>
     </div>

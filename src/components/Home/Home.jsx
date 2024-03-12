@@ -11,7 +11,7 @@ export const Home = () => {
       <HeroSection />
       <HighLight />
       <Explore />
-      <CardCarousel />a
+      <CardCarousel />
       <Getstarted />
     </>
   );

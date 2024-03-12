@@ -11,12 +11,12 @@ import { CourseCard } from "./CourseCard";
 
 export default function CardCarousel() {
   return (
-    <div className=" flex justify-center">
-      <Carousel className="w-4/5">
+    <div className="flex justify-center">
+      <Carousel className="flex w-full max-w-sm justify-center sm:w-4/5 sm:max-w-full">
         <CarouselContent>
           {data.map((card, index) => (
             <CarouselItem
-              className="basis-1/4 text-center text-white"
+              className="text-center text-white md:basis-1/2 lg:basis-1/4"
               key={index}
             >
               <CourseCard
@@ -27,8 +27,8 @@ export default function CardCarousel() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="hidden md:flex" />
+        <CarouselNext className="hidden md:flex" />
       </Carousel>
     </div>
   );
