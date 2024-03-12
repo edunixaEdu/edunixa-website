@@ -1,18 +1,14 @@
 import React from "react";
-
-import Navbar from "../section/Navbar";
-import HeroSection from "../Home/Components/HeroSection";
-import { HighLight } from "../Home/Components/HighLight";
+import CourseName from "./Components/CourseName";
+import CourseDetails from "./Components/CourseDetails";
+import CourseImage from "./Components/CourseImage";
 
 export const Course = () => {
   return (
     <>
-      <HeroSection />
-      <HighLight />
-      {/* <Explore />
-      <CardCarousel />a
-      <Getstarted />
-      <Footer /> */}
+      <CourseImage />
+      <CourseName />
+      <CourseDetails />
     </>
   );
 };
