@@ -5,10 +5,10 @@ import CourseImage from "./Components/CourseImage";
 
 export const Course = () => {
   return (
-    <>
+    <div className="w-full px-20">
       <CourseImage />
       <CourseName />
       <CourseDetails />
-    </>
+    </div>
   );
 };

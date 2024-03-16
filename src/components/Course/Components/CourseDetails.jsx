@@ -1,4 +1,6 @@
 import React from "react";
+import Accordicon from "./Accordicon";
+import Feedback from "./Feedback";
 
 function CourseDetails() {
   return (
@@ -39,7 +41,7 @@ function CourseDetails() {
         by some of the best learning institutions.
       </div>
       <div className="my-10 text-2xl font-bold">What you'll learn</div>
-      <div className="grid grid-cols-2 grid-rows-3 gap-14 font-extralight">
+      <div className="grid grid-cols-2 grid-rows-2 gap-14 font-extralight">
         <div className="grid grid-flow-col items-center justify-center">
           <div className="mx-4 h-4 w-4 rounded-full bg-green-300"></div>
           Apply algorithmic techniques and data structures to solve programming
@@ -58,10 +60,18 @@ function CourseDetails() {
           <div className="mx-4 h-4 w-4 rounded-full bg-green-300"></div>
           Get acquainted with Genome assembly
         </div>
-        <div className="grid grid-flow-col items-center justify-center">
-          <div className="mx-4 h-4 w-4 rounded-full bg-green-300"></div>
-          Train yourself with multiple training projects
-        </div>
+      </div>
+      <div className="my-10 text-2xl font-bold">What you'll learn</div>
+      <div className="my-10">
+        <Accordicon />
+        <Accordicon />
+        <Accordicon />
+        <Accordicon />
+        <Accordicon />
+      </div>
+      <div className="my-10 text-2xl font-bold">Student Testimonials</div>
+      <div>
+        <Feedback />
       </div>
     </div>
   );
