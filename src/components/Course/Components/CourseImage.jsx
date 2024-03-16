@@ -3,7 +3,7 @@ import React from "react";
 function CourseImage() {
   return (
     <>
-      <div className="absolute right-40 top-28 h-full rounded-2xl bg-PrimeTwo p-4">
+      <div className="absolute right-40 top-28 rounded-2xl bg-PrimeTwo p-4">
         <img
           src="https://www.skolar.in/static/media/courses/dsa.png"
           alt="course-img"
