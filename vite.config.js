@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/edunixa-website",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
