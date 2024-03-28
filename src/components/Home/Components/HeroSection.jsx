@@ -3,7 +3,7 @@ import photo from "../../../assets/demo.svg";
 const HeroSection = () => {
   return (
     <div className="flex h-full w-full justify-center py-5 lg:p-20">
-      <div className="flex h-full w-11/12 flex-col items-center justify-evenly  rounded-lg  border bg-PrimeOne shadow md:flex-row">
+      <div className="flex h-full w-10/12 flex-col items-center justify-evenly  rounded-lg  border bg-PrimeOne shadow md:flex-row">
         <img
           className=" h-auto  rounded-t-lg p-4 md:h-auto md:w-1/3 md:rounded-none md:rounded-s-lg"
           src={photo}
