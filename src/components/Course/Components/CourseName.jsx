@@ -3,14 +3,14 @@ import React from "react";
 function CourseName() {
   return (
     <div className="w-full">
-      <div className="mx-20 flex h-80 flex-col justify-center rounded bg-blue-600 px-16">
-        <div className="w-1/2 text-4xl font-bold text-white">
+      <div className="mx-5 lg:mx-20 flex h-80 flex-col justify-center rounded bg-blue-600 px-5 lg:px-16">
+        <div className="py-5 lg:py-0 lg:w-1/2 text-2xl lg:text-4xl font-bold text-white">
           Data Structure and Algorithms - A DSA training program by Skolar
         </div>
-        <div className="my-8 text-xl text-white">
+        <div className="lg:my-8 text-xl text-white">
           Enrolling yourself in one of our programs is the easiest thing ever.
         </div>
-        <div className="flex w-1/3 justify-between">
+        <div className="flex lg:w-1/3 py-10 lg:py-0 gap-5 lg:gap-0 lg:justify-between">
           <div className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"

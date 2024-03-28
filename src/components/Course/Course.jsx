@@ -5,9 +5,9 @@ import CourseImage from "./Components/CourseImage";
 
 export const Course = () => {
   return (
-    <div className="w-full px-20">
-      <CourseImage />
+    <div className="w-full lg:px-20">
       <CourseName />
+      <CourseImage />
       <CourseDetails />
     </div>
   );

@@ -4,10 +4,10 @@ import Feedback from "./Feedback";
 
 function CourseDetails() {
   return (
-    <div className="mx-20 my-10 w-1/2 text-left text-white">
+    <div className="mx-6 lg:mx-20 my-10 lg:w-1/2 text-left text-white">
       <div className="my-4 text-3xl">Overview</div>
       <hr />
-      <div className="my-4 font-extralight">
+      <div className="pt-4 lg:my-4 font-extralight">
         To perform specific tasks on a computer program, you need to store and
         retrieve the data to perform computations. A data structure in this case
         is such a named location that could be used to store and organize this
@@ -40,8 +40,8 @@ function CourseDetails() {
         Certificates - Provided at the end of every training program, authorized
         by some of the best learning institutions.
       </div>
-      <div className="my-10 text-2xl font-bold">What you'll learn</div>
-      <div className="grid grid-cols-2 grid-rows-2 gap-14 font-extralight">
+      <div className="my-10 text-2xl text-center lg:text-left font-bold">What you'll learn</div>
+      <div className="flex flex-col justify-center gap-3 lg:grid grid-cols-2 grid-rows-2 lg:gap-14 font-extralight">
         <div className="grid grid-flow-col items-center justify-center">
           <div className="mx-4 h-4 w-4 rounded-full bg-green-300"></div>
           Apply algorithmic techniques and data structures to solve programming
