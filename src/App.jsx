@@ -10,8 +10,8 @@ import { About } from "./components/AboutUs/About";
 
 function App() {
   return (
-    <div className="flex h-screen flex-col items-center bg-PrimeTwo">
-      <div className="flex w-full flex-col bg-PrimeTwo">
+    <div className="flex h-screen justify-center bg-PrimeTwo ">
+      <div className="flex max-w-screen-2xl flex-col bg-PrimeTwo">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
