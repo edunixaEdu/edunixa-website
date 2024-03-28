@@ -6,7 +6,7 @@ const navigation = [
   { name: "Courses", href: "/course" },
   { name: "Features", href: "#" },
   { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Abouts us", href: "/aboutus" },
 ];
 
 export default function Example() {
