@@ -41,7 +41,7 @@ function CourseDetails() {
         by some of the best learning institutions.
       </div>
       <div className="my-10 text-2xl text-center lg:text-left font-bold">What you'll learn</div>
-      <div className="flex flex-col justify-center gap-3 lg:grid grid-cols-2 grid-rows-2 lg:gap-14 font-extralight">
+      <div className="flex flex-col items-start gap-5 lg:grid grid-cols-2 grid-rows-2 lg:gap-14 font-extralight">
         <div className="grid grid-flow-col items-center justify-center">
           <div className="mx-4 h-4 w-4 rounded-full bg-green-300"></div>
           Apply algorithmic techniques and data structures to solve programming

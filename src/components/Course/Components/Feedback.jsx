@@ -2,7 +2,7 @@ import React from "react";
 
 function Feedback() {
   return (
-    <div className="mx-4 w-1/2 rounded-lg bg-card p-6">
+    <div className="mx-4 lg:w-1/2 rounded-lg bg-card p-6">
       <div className="flex items-center justify-between">
         <div>
           <div className="text-xl">Ravi Taneja</div>
