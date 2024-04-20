@@ -4,8 +4,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Courses", href: "/course" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
   { name: "Abouts us", href: "/aboutus" },
 ];
 
@@ -48,14 +46,7 @@ export default function Example() {
               {item.name}
             </a>
           ))}
-          <div className="hidden rounded-md bg-PrimeOne p-3  lg:flex lg:flex-1 lg:justify-end  ">
-            <a
-              href="#"
-              className="font-semibold leading-6 text-black text-gray-900"
-            >
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+
         </div>
       </nav>
       <Dialog
@@ -96,14 +87,6 @@ export default function Example() {
                     {item.name}
                   </a>
                 ))}
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
               </div>
             </div>
           </div>

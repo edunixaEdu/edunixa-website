@@ -1,5 +1,5 @@
 import React from "react";
-import medal from "../../../assets/medal.svg";
+import medal from "@/assets/medal.svg";
 export const HighLight = () => {
   return (
     <div className="flex flex-col items-center md:w-full ">

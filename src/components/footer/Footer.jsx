@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex h-max w-full flex-col items-center justify-evenly md:flex-row pb-10">
-      <div className="flex   h-60 w-80 flex-row justify-between md:w-72 ">
+    <div className="grid h-max w-full flex-col items-center justify-evenly md:grid-cols-3 pb-10 p-4 ">
+      <div className="flex flex-row justify-between md:w-10/12">
         <div className="mx-2 flex flex-col justify-around text-white">
           <div className="flex items-center gap-x-2">
             <img
@@ -13,7 +13,7 @@ function Footer() {
             />
             <h1 className="text-xl font-bold">Skolar</h1>
           </div>
-          <div className="flex flex-col gap-y-2">
+          <div className="flex flex-col flex-wrap gap-y-2">
             <div>Top-notch learning quality. Promised.</div>
             <div>
               Skolar ensures an exceptional standard of learning, all backed by
@@ -22,9 +22,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex h-60 w-80 flex-col items-center md:w-72 ">
-        <div className=" mx-2 my-4 flex h-60 w-80 flex-col justify-between text-white md:w-72 ">
-          <h1 className="text-xl font-bold">Company</h1>
+      <div className="flex  flex-col items-start">
+        <div className=" mx-2 my-4 flex flex-col justify-between text-white">
+          <h1 className="text-xl font-bold py-2">Company</h1>
           <p className=" text-slate-400 font-light">Terms & condition</p>
           <p className=" text-slate-400 font-light">Privacy policy</p>
           <p className=" text-slate-400 font-light">Refund policy</p>
@@ -33,15 +33,15 @@ function Footer() {
           <p className=" text-slate-400 font-light">FAQS</p>
         </div>
       </div>
-      <div className="flex h-60 w-80 flex-col items-center justify-evenly text-white md:w-72">
-        <div className="mx-2 flex w-80 flex-col gap-y-2 md:w-72">
+      <div className="flex  flex-col items-start justify-evenly text-white  flex-wrap">
+        <div className="mx-2 flex flex-col gap-y-2">
           <h1 className="text-xl font-bold">Address</h1>
           <p>
             112, BHIVE workspace B Block, AKR Tech Park, GB Palya Bangalore
             560068
           </p>
         </div>
-        <div className="mx-2 flex w-80 flex-col gap-y-2 md:w-72">
+        <div className="mx-2 flex flex-col gap-y-2 justify-start pt-2">
           <h1 className="text-xl font-bold">Contact Us</h1>
           <div>
             <p className=" font-light">support@skolar.in</p>

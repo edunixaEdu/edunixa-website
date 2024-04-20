@@ -2,7 +2,7 @@ import React from "react";
 
 function Getstarted() {
   return (
-    <div className=" mt-5  flex w-full justify-center ">
+    <div className=" mt-5  flex w-full justify-center p-4">
       <div className="flex w-full flex-col items-center justify-evenly gap-x-8 rounded-xl bg-PrimeOne md:w-10/12 md:flex-row">
         <div className="h-50 flex justify-around p-3 md:my-8 md:ml-8 md:w-1/2">
           <div className="flex flex-col justify-around text-black">
